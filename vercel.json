@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/trip", "destination": "/api/trip" },
+    { "source": "/api/members", "destination": "/api/members" },
+    { "source": "/api/expenses", "destination": "/api/expenses" },
+    { "source": "/(.*)", "destination": "/api/app" }
+  ]
+}
